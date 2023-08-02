@@ -32,9 +32,22 @@
     }
 
     ul.colors{
-	display:inline-block;
-	margin-left:5%;
-}
+        display:inline-block;
+        margin-left:5%;
+
+    }
+    
+    #myDiv > p{
+        background-color: yellow;
+    }
+
+    div#yetAnotherDiv li:nth-child(even){
+        background-color:yellow;
+    }
+
+        
+    
+
   </style>
  </head>
  <body>
@@ -53,7 +66,7 @@
 	</header>
      
    <main class="wrapper">
-    <header><h3>Outfitter for All Seasons!</h3></header>
+    <header><h3 id="slogan">Outfitter for All Seasons!</h3></header>
     <p>
     The colors of the seasonal images are as follows:
         <ul class="colors">
@@ -63,6 +76,9 @@
             <li>Winter: <b>#005393</b></li>
         </ul>
     </p>
+
+        
+    </div>
     <p>
     Aesthetic gentrify YOLO McSweeney's typewriter single-origin coffee. Slow-carb hella listicle lomo, Helvetica single-origin coffee butcher stumptown. Chambray try-hard church-key mumblecore, tote bag PBR cardigan. Retro Austin Brooklyn, blog Intelligentsia gentrify jean shorts sartorial bicycle rights gastropub. Aesthetic wayfarers Pitchfork, tattooed Carles quinoa meh leggings distillery pork belly banjo. Umami cred lumbersexual skateboard, pork belly Tumblr vegan letterpress. Fixie bicycle rights butcher chillwave, gluten-free health goth Echo Park locavore whatever.
     <img src="images/300x400.png" alt="Season Wear Goes Here" id="wear" />
@@ -78,12 +94,14 @@
     </p>
     <footer>
     <p><small>&copy; 2021 by 
-        YOUR NAME HERE, All Rights Reserved ~ 
+         Justin David, All Rights Reserved ~ 
         <a id="html-checker" href="#">Check HTML</a> ~ 
         <a id="css-checker" href="#">Check CSS</a></small>
     </p>
     </footer>
   </main>
   <script src="js/main.js"></script>
+  <script src="js/seasonal-style.js"></script>
+
   </body>
 </html>
